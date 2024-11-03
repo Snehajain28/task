@@ -12,9 +12,9 @@ import l1 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC  Blu
 import l2 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Alphonso Mango Front.png'
 import l3 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Alpine Milk Chocolate Front.png'
 import l4 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Bourbon Vanilla Front.png'
-import l5 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Cafe Mocha Front.png'
-import l6 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Espresso Front.png'
-import l7 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Chocolate Hazelnut Front.png'
+// import l5 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Cafe Mocha Front.png'
+// import l6 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Espresso Front.png'
+// import l7 from '../assests/High Resolution Pictures Front/BioAlpine Bio WPC Chocolate Hazelnut Front.png'
 
 
 function Home() {
@@ -26,15 +26,15 @@ function Home() {
   }
 
   return (
-    <div >
+    <div className="w-[100vw] -mt-[3rem] h-[100vh]">
     
       <div onClick={() => {
         dispatch({
           type: "SET_HAMBURGER",
           hamburger: false,
         })
-      }} className="mt-[1rem] ">
-        <div className="  w-full">
+      }} >
+        <div className=" w-full">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -47,34 +47,34 @@ function Home() {
             className="mySwiper"
           >
             <SwiperSlide >
-              <div className="w-[90vw] lg:w-[70vw] lg:h-[30vw] h-[70vw] mx-auto">
-                <img loading="lazy" className='h-full  object-cover rounded-lg w-full object-fit obejct-cover' alt='' 
+              <div className="w-[90vw] lg:w-[24vw] lg:h-[56vh] h-[70vw] mx-auto">
+                <img loading="lazy" className='h-full  object-fit rounded-lg w-full ' alt='' 
                 src={l1} />
               </div>
             </SwiperSlide>
 
-            <SwiperSlide>
-              <div className="w-[90vw]  lg:w-[70vw] lg:h-[30vw] h-[70vw] mx-auto">
-                <img loading="lazy" className='h-full object-cover  rounded-lg w-full object-fit obejct-cover' alt=''
+             <SwiperSlide>
+              <div className="w-[90vw] lg:w-[24vw] lg:h-[56vh] h-[70vw] mx-auto">
+                <img loading="lazy" className='h-full  rounded-lg w-full object-fit' alt=''
                  src={l2} />
               </div>
             </SwiperSlide>
 
             <SwiperSlide >
-              <div className="w-[90vw]  lg:w-[70vw] lg:h-[30vw] h-[70vw] mx-auto">
-                <img loading="lazy" className='h-full object-cover  rounded-lg w-full object-fit obejct-cover' alt=''
+              <div className="w-[90vw] lg:w-[24vw] lg:h-[56vh] h-[70vw] mx-auto">
+                <img loading="lazy" className='h-full  rounded-lg w-full object-fit ' alt=''
                  src={l3} />
               </div>
             </SwiperSlide>
 
-            <SwiperSlide >
-              <div className="w-[90vw]  lg:w-[70vw] lg:h-[30vw] h-[75vw] mx-auto">
-                <img loading="lazy" className='h-full object-cover  rounded-lg w-full object-fit obejct-cover' alt='' 
+          <SwiperSlide >
+              <div className="w-[90vw] lg:w-[24vw] lg:h-[56vh] h-[70vw] mx-auto">
+                <img loading="lazy" className='h-full  rounded-lg w-full object-fit ' alt='' 
                 src={l4}/>
               </div>
             </SwiperSlide>
 
-            <SwiperSlide >
+             {/* <SwiperSlide >
               <div className="w-[90vw]  lg:w-[70vw] lg:h-[30vw] h-[75vw] mx-auto">
                 <img loading="lazy" className='h-full object-cover  rounded-lg w-full object-fit obejct-cover' alt='' 
                 src={l5} />
@@ -91,7 +91,7 @@ function Home() {
                 <img loading="lazy" className='h-full object-cover  rounded-lg w-full object-fit obejct-cover' alt='' 
                 src={l7}/>
               </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </div>
         <SearchBar />

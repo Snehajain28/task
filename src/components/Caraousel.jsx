@@ -38,8 +38,8 @@ const pics = [p16,p17,p18,p11,p12,p13,p14,p15];
           items: 2.3,
         },
         1024: {
-          items: 5,
-          itemsFit: 'contain',
+          items: 4,
+         
         }
       }
       const post = posts.map((d, i) => (
