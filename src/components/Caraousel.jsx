@@ -5,10 +5,6 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import p1 from "../assests/Social Media/Posts/IGC-P1.jpg"
 import p2 from "../assests/Social Media/Posts/IGC-P2.jpg"
 import p3 from "../assests/Social Media/Posts/IGC-P3.jpg"
-import p4 from "../assests/Social Media/Posts/IGC-P4.jpg"
-import p5 from "../assests/Social Media/Posts/IGC-P5.jpg"
-import p6 from "../assests/Social Media/Posts/IGC-P6.jpg"
-import p7 from "../assests/Social Media/Posts/IGC-P7.jpg"
 import p8 from "../assests/Social Media/Posts/IGC-P8.jpg"
 import p9 from "../assests/Social Media/Posts/Milk-Contamination-Content-S2.jpg"
 import p10 from "../assests/Social Media/Posts/Milk-Contamination-Content-S1.jpg"
@@ -27,7 +23,7 @@ import p18 from "../assests/products/Alpine Milk Chocolate/Bioalpine-WPC-1000g-A
 
 export default function Caraousel() {
  
-  const posts = [p1,p2,p3,p4,p5,p6,p7,p8,p9,p10]
+  const posts = [p1,p2,p3,p8,p9,p10]
     
 const pics = [p16,p17,p18,p11,p12,p13,p14,p15];
 
