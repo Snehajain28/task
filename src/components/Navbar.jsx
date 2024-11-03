@@ -189,7 +189,7 @@ export default function Navbar() {
                 </div>
 
               </div>) :
-              (<button onClick={handleClick} className=' flex border  rounded-full justify-center  items-center w-[5rem] px-2 py-2  rounded-full font-semibold  gap-2 rounded-full '>
+              (<button onClick={handleClick} className=' flex border bg-red-500 text-white rounded-full justify-center  items-center w-[5rem] px-2 py-2  rounded-full font-semibold  gap-2 rounded-full '>
                 <FaUserAlt /><p>Login</p>
               </button>)
             )
